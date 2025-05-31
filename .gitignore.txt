@@ -1,0 +1,14 @@
+# virtual env & IDE junk
+.venv/
+__pycache__/
+.vscode/
+
+# data / local DBs
+faiss_index/
+feedback_db/
+
+# secrets
+.env
+
+# OS cruft
+.DS_Store
