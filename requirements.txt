@@ -1,30 +1,13 @@
-streamlit==1.45.1
-python-dotenv==1.1.0
-
-# ──────────────────────── LangChain stack ───────────────────
-# All pinned to the 0.2-series (core 0.2.42) to avoid 0.3.x clashes
-langchain==0.2.16            # pulls in langchain-core 0.2.42
-langchain-community==0.2.16
-langchain-openai==0.1.25
-langchain-anthropic==0.1.23
-langchain-google-genai==1.0.10
-langsmith==0.1.124           # must be ≥0.1.112,<0.2.0
-openai==1.40.6
-google-generativeai==0.7.2    # companion lib used by the adapter
-tiktoken==0.7.0
-
-# ─────────────────── Vector stores / DB back-ends ───────────
-chromadb==0.5.0
-faiss-cpu==1.11.0             # use faiss-wheels on Windows if build errors
-
-# ────────────── PDF, NLP, embeddings, utilities ─────────────
-PyPDF2==3.0.1
-sentence-transformers==3.0.1
-spacy==3.7.6
-dateparser==1.2.1
-parsedatetime==2.6
-validators==0.35.0
-requests==2.32.3
-
-# ────────────────────────── Visuals ─────────────────────────
-plotly==5.22.0
+streamlit
+google-generativeai
+python-dotenv
+langchain
+PyPDF2
+chromadb
+faiss-cpu
+langchain_google_genai
+langchain-community
+plotly
+sentence-transformers
+spacy
+streamlit_extras

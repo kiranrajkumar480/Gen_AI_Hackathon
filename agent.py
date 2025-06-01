@@ -5,9 +5,9 @@ from langchain.memory import ConversationBufferMemory
 from typing import Tuple, Dict
 from config import LLM
 import career_tools as ct
-import feedback                as fb
+import feedback as fb
 import document_processor as dp
-import comparator             as cmp
+import comparator as cmp
 from pathlib import Path
 
 class JobCoachAgent:
